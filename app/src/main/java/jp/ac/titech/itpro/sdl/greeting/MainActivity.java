@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void greet(View v) {
-        String name = inputName.getText().toString();
+        name = inputName.getText().toString();
         if (name.length() > 0)
             outputView.setText("Hello, " + name + "\nNice to see you!");
     }
